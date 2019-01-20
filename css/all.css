@@ -136,6 +136,7 @@ a:hover{text-decoration:underline;}
 	width:100%;
     display:table-row;
     background: #50af6f;
+    /*text-transform: uppercase;*/
 }
 .wrapper-holder.grey{background: #28292b;}
 #header {
@@ -272,20 +273,22 @@ h2.slogan{
 .box_timeline h3{
 	font-family: 'novecento_sans_widemedium';
 	color: #50af6f;
-	font-size: 14px;
+	font-size: 20px;
 	line-height: 16px;
-	display: block;
+	display: inline-block;
 	text-align: center;
-	margin: 0 0 10px;
+	margin: 0 0 20px;
+	min-width: 200px;
 }
 .box_timeline p{
 	font-family: Arial, Helvetica, sans-serif;
 	color: #a4a7ac;
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 18px;
-	display: block;
+	display: inline-block;
 	text-align: center;
-	margin: 0 0 10px;
+	margin: 0 0 20px;
+	min-width: 200px;
 }
 /*skills*/
 #main .skills_holder h2{text-align: left;margin: 0 0 40px;}
@@ -518,7 +521,7 @@ transition: all 0.5s ease-in-out;
 	font-family: 'novecento_sans_widebook';
 	font-size: 30px;
 	line-height: 32px;
-	text-transform: uppercase;
+	text-transform: none;
 	display: block;
 	margin: 0 0 55px;
 	padding: 5px 0 18px 80px;
@@ -582,7 +585,7 @@ transition: all 0.5s ease-in-out;
 }
 /* begin add	 */
 .popup_portfolio{
-	max-width: 1132px;
+	max-width: 1000px;
 }
 .popup_portfolio h3{
 	padding-top:26px;
@@ -595,10 +598,11 @@ transition: all 0.5s ease-in-out;
 }
 .popup_portfolio time{
 	font-family: 'novecentosanswide';
-	color: #abacaf;
+	color: #63666a;
 	font-size: 12px;
 	line-height: 12px;
 	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 .popup_portfolio p{
 	padding: 17px 0 8px;
@@ -609,7 +613,7 @@ transition: all 0.5s ease-in-out;
 .popup_portfolio img {
 	width: 100%;
 	height: auto;
-	border-radius: 8px;
+	border-radius: 50px;
 }
 .fancybox-close {
 	width: 46px;
@@ -643,14 +647,17 @@ transition: all 0.5s ease-in-out;
 	.box_timeline_holder{
 		background-image: url(../images/bg_timeline_l@x2.png);
 		background-size:100px 16px;
+		text-transform: uppercase;
 	}
 	.box_timeline{
 		background-image: url(../images/bg_timeline_r@x2.png);
 		background-size:100px 16px;
+		text-transform: uppercase;
 	}
 	.box_timeline ul li .date{
 		background-image: url(../images/bg_timeline_c@x2.png);
 		background-size:50px 86px;
+		text-transform: uppercase;
 	}
 	.footer-content .social li.email a{
 		background-image: url(../images/icon_email@x2.png);
