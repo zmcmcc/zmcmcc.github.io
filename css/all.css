@@ -465,6 +465,7 @@ transition: all 0.5s ease-in-out;
 .item {
 	text-align: center;
 	width: 250px;
+	height: 250px;
 	margin: 0 auto;
 }
 .item .image {
