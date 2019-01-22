@@ -534,8 +534,9 @@ transition: all 0.5s ease-in-out;
 #footer {
     width:100%;
     overflow:hidden;
-    display:table-footer-group;
-    background:#fff;
+    height:100%;
+    background:#28292b;
+    padding:-40px;
 }
 .footer-content {
 	max-width: 1170px;
@@ -555,8 +556,8 @@ transition: all 0.5s ease-in-out;
 	behavior: url(css/PIE.htc);
 	text-indent: -9999px;
 	background: #c6cfc9;
-	width: 123px;
-	height: 123px;
+	width: 63px;
+	height: 63px;
 	position:relative;
 	display: table;
 }
@@ -581,7 +582,7 @@ transition: all 0.5s ease-in-out;
 	font:18px/20px Arial, Helvetica, sans-serif;
 	display: block;
 	text-align: center;
-	color: #929c95;
+	color: #FFF;
 }
 /* begin add	 */
 .popup_portfolio{
@@ -615,6 +616,12 @@ transition: all 0.5s ease-in-out;
 	height: auto;
 	border-radius: 50px;
 }
+.popup_portfolio a {
+	color: #1E90FF; 
+	width: 100%;
+	height: auto;
+	border-radius: 50px;
+}
 .fancybox-close {
 	width: 46px;
 	height: 46px;
@@ -623,7 +630,8 @@ transition: all 0.5s ease-in-out;
 	background-image: url(../images/ico_btn-close.png);
 }
 .fancybox-opened .fancybox-skin{
-	padding: 20px !important;
+	
+	 !important;
 	border-radius: 10px;
 }
 .fancybox-nav {
