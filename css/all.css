@@ -464,7 +464,7 @@ transition: all 0.5s ease-in-out;
 }
 .item {
 	text-align: center;
-	width: 270px;
+	width: 250px;
 	margin: 0 auto;
 }
 .item .image {
@@ -472,7 +472,6 @@ transition: all 0.5s ease-in-out;
 }
 .item .image img {
 	max-width: 100%;
-	height:auto;
 	border-radius: 50%;
 }
 .item .hover {
