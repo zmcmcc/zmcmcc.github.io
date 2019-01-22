@@ -458,7 +458,8 @@ transition: all 0.5s ease-in-out;
 .item-list li {
 	display:inline-block;
 	margin: 0 0 25px 24px;
-	vertical-align: top;
+	align-self: auto;
+	vertical-align: auto;
 	font-size: 0;
 }
 .item {
@@ -467,7 +468,7 @@ transition: all 0.5s ease-in-out;
 	margin: 0 auto;
 }
 .item .image {
-	position: relative;
+	/*position: relative;*/
 }
 .item .image img {
 	max-width: 100%;
@@ -502,8 +503,8 @@ transition: all 0.5s ease-in-out;
 	display: block;
 	background: url(../images/bg_white_border.gif) no-repeat 50% 100%;
 	color: #fff;
-	text-transform: uppercase;
-	font-family: 'novecentosanswide';
+	text-transform: capitalize;
+	font-family: 'Lora';
 	font-weight:bold;
 	font-size: 14px;
 	line-height: 16px;
@@ -606,19 +607,19 @@ transition: all 0.5s ease-in-out;
 }
 .popup_portfolio h3{
 	padding-top:26px;
-	font-family: 'novecentosanswide';
+	font-family: 'Lora';
 	font-weight:bold;
 	color: #63666a;
 	font-size: 18px;
 	line-height: 18px;
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 .popup_portfolio time{
-	font-family: 'novecentosanswide';
+	font-family: 'Lora';
 	color: #63666a;
 	font-size: 12px;
 	line-height: 12px;
-	text-transform: uppercase;
+	text-transform: none;
 	/*text-transform: uppercase;*/
 }
 .popup_portfolio p{
